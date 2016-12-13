@@ -1,0 +1,270 @@
+/*
+
+Color: Grey
+
+*/
+
+
+/* =Global
+----------------------------------------------- */
+
+cite {
+	color: #ddd;
+}
+mark,
+ins {
+	background: #ddd;
+}
+
+/* Forms */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background: #ddd;
+}
+.widget-area button,
+.widget-area html input[type="button"],
+.widget-area input[type="reset"],
+.widget-area input[type="submit"] {
+	color: #ddd;
+}
+button:hover,
+html input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:focus,
+html input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+html input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	background: #ccc;
+}
+.widget-area input[type="text"],
+.widget-area input[type="url"],
+.widget-area input[type="email"],
+.widget-area input[type="password"],
+.widget-area input[type="search"],
+.widget-area textarea {
+	border-color: #343434;
+}
+
+/* Links */
+a {
+	color: #343434;
+}
+a:hover,
+a:focus,
+a:active {
+	color: #565656;
+}
+
+
+/* =Theme
+----------------------------------------------- */
+
+body:after {
+	background: #232323;
+}
+#sidebar-toggle {
+	background: #ccc;
+}
+#sidebar-toggle:before,
+#sidebar-toggle:after {
+	border-top-color: #ccc;
+}
+.site-header {
+	background: #232323;
+}
+.site-branding {
+	border-bottom: none;
+  background-color: #50ADEB;
+  box-shadow: -4px 2px 2px rgba(0,0,0,0.2);
+  margin: 15px -45px;
+  padding: 5px 0px 5px 0px;
+}
+.site-title a:hover {
+	color: #ccc;
+}
+.site-info a:hover {
+	color: #ccc;
+}
+
+@media only screen and (max-width: 767px) {
+  .site-branding {
+    border-bottom: none;
+    background-color: #50ADEB;
+    box-shadow: -4px 2px 2px rgba(0,0,0,0.2);
+    margin: 15px 0px;
+    padding: 5px 0px 5px 0px;
+  }
+}
+
+
+/* =Menu
+----------------------------------------------- */
+
+.main-navigation:after {
+	border-bottom-color: #ccc;
+}
+.main-navigation a:hover {
+	background: #ccc;
+}
+.main-navigation ul ul {
+	background: #ddd;
+}
+
+/* Small menu */
+.menu-toggle,
+.dropdown-icon {
+	background: #ccc;
+}
+
+
+/* =Social links
+----------------------------------------------- */
+
+#social-links {
+	border-bottom-color: #ccc;
+}
+.social-links a {
+	background: #ccc;
+	color: #ddd;
+}
+
+
+/* =Content
+----------------------------------------------- */
+
+/* Entry title */
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active {
+	color: #ddd;
+}
+
+/* Entry meta */
+.entry-meta a:hover,
+.entry-meta a:focus,
+.entry-meta a:active {
+	color: #ddd;
+}
+
+/* More link */
+.more-link {
+	background: #ddd;
+}
+.more-link:hover,
+.more-link:focus,
+.more-link:active {
+	background: #ccc;
+}
+
+
+/* =Media
+----------------------------------------------- */
+
+/* Audio */
+.wp-audio-shortcode .mejs-controls .mejs-time-rail .mejs-time-current,
+.wp-audio-shortcode .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	background: #ddd;
+}
+
+
+/* =Navigation
+----------------------------------------------- */
+
+#content [class*="navigation"] a:hover,
+#content [class*="navigation"] a:focus,
+#content [class*="navigation"] a:active {
+	color: #ddd;
+}
+
+
+/* =Comments
+----------------------------------------------- */
+
+/* Comment metadata */
+.comment-metadata a:hover,
+.comment-metadata a:focus,
+.comment-metadata a:active {
+	color: #ddd;
+}
+
+
+/* =Widgets
+----------------------------------------------- */
+
+.widget {
+	border-bottom-color: #343434;
+}
+.widget th,
+.widget tfoot tr {
+	background: #ccc;
+}
+.widget th,
+.widget td {
+	border-bottom-color: #ccc;
+}
+
+/* Tag cloud */
+.widget_tag_cloud a {
+	background: #ccc;
+}
+.content-area .widget_tag_cloud a {
+	background: #ddd;
+}
+.widget_tag_cloud a:hover,
+.widget_tag_cloud a:focus,
+.widget_tag_cloud a:active {
+	color: #ddd;
+}
+
+/* List */
+.widget_archive ul a:hover,
+.widget_categories ul a:hover,
+.widget_links ul a:hover,
+.widget_nav_menu ul a:hover,
+.widget_meta ul a:hover,
+.widget_pages ul a:hover,
+.widget_recent_comments ul a:hover,
+.widget_recent_entries ul a:hover,
+.widget_rss ul a:hover,
+.widget_rss_links ul a:hover {
+	color: #ccc;
+}
+.content-area .widget_categories ul a:hover,
+.content-area .widget_recent_entries ul a:hover {
+	color: #ddd;
+}
+.content-area .widget_tag_cloud a:hover,
+.content-area .widget_tag_cloud a:focus,
+.content-area .widget_tag_cloud a:active {
+	background: #ccc;
+}
+
+
+/* =Jetpack
+----------------------------------------------- */
+
+/* Infinite scroll */
+span.infinite-loader .spinner div div {
+	background: #ddd !important;
+}
+#infinite-handle span {
+	background: #ddd;
+}
+#infinite-handle span:hover {
+	background: #ccc;
+}
+
+/* Widget - Gravtar profile */
+.widget-grofile .grofile-full-link,
+.widget-grofile .grofile-full-link:hover,
+.widget-grofile .grofile-full-link:focus,
+.widget-grofile .grofile-full-link:active {
+	color: #ddd;
+}

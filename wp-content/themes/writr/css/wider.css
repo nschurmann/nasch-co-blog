@@ -1,29 +1,29 @@
-@media only screen and (min-width: 1220px) {
+@media only screen and (min-width: 1320px) {
 
 	/* Grid */
 	#page {
-		width: 1200px;
+		width: 1400px;
 	}
 	#page:before {
-		width: 800px;
+		width: 1000px;
 	}
 
 	/* Primary */
 	.content-area {
-		width: 800px;
+		width: 1000px;
 	}
 
 	/* Content */
 	.entry-thumbnail {
-		width: 800px;
+		width: 1000px;
 	}
 
 	/* Media */
 	.entry-attachment .attachment {
-		width: 800px;
+		width: 1000px;
 	}
 	.video-wrapper .video-player {
-		max-width: 720px;
+		max-width: 920px;
 	}
 
 }

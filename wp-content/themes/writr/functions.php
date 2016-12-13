@@ -133,7 +133,7 @@ function writr_fonts() {
 	/* translators: If there are characters in your language that are not supported
 	   by Montserrat, translate this to 'off'. Do not translate into your own language. */
 	if ( 'off' !== _x( 'on', 'Montserrat font: on or off', 'writr' ) ) {
-		wp_register_style( 'writr-montserrat', "https://fonts.googleapis.com/css?family=Montserrat:400,700", array(), null );
+		wp_register_style( 'writr-montserrat', "https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400", array(), null );
 
 	}
 }

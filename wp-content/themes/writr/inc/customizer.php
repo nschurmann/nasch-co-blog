@@ -62,6 +62,7 @@ function writr_customize_register( $wp_customize ) {
 			'grey'          => __( 'Grey', 'writr' ),
 			'purple'        => __( 'Purple', 'writr' ),
 			'red'           => __( 'Red', 'writr' ),
+			'custom'           => __( 'Custom', 'writr' ),
 		),
 		'priority'		    => 3,
 	) );
@@ -89,7 +90,7 @@ function writr_sanitize_checkbox( $input ) {
  * @return string
  */
 function writr_sanitize_color_scheme( $color ) {
-	if ( ! in_array( $color, array( 'default', 'blue', 'green', 'grey', 'purple', 'red' ) ) ) {
+	if ( ! in_array( $color, array( 'default', 'blue', 'green', 'grey', 'purple', 'red', 'custom' ) ) ) {
 		$color = 'default';
 	}
 	return $color;

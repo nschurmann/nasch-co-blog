@@ -91,7 +91,8 @@ input,
 select,
 textarea {
 	color: #fff;
-	font-family: Montserrat, sans-serif;
+	font-family: Open Sans, sans-serif;
+	font-weight: 300;
 	font-size: 16px;
 	line-height: 1.5;
 }
@@ -300,7 +301,7 @@ input[type="submit"] {
 .widget-area html input[type="button"],
 .widget-area input[type="reset"],
 .widget-area input[type="submit"] {
-	background: #fff;
+	background: #333;
 	color: #1abc9c;
 }
 button:hover,
@@ -329,7 +330,7 @@ input[type="submit"]:active {
 .widget-area html input[type="button"]:active,
 .widget-area input[type="reset"]:active,
 .widget-area input[type="submit"]:active {
-	background: #f5f5f5;
+	background: #666;
 }
 input[type="checkbox"],
 input[type="radio"] {
@@ -536,7 +537,6 @@ body:after {
 body:before {
 	left: 300px;
 	width: 100px;
-	background: #303030;
 }
 
 /* Page */
@@ -653,7 +653,7 @@ body:before {
 	color: #16a085;
 }
 .site-description {
-	margin: 0 0 20px;
+	margin: 0;
 	color: #fff;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -698,12 +698,12 @@ body:before {
 }
 .site-info {
 	padding: 0 0 40px;
-	color: #fff;
+	color: #999;
 	font-size: 12px;
 	text-align: center;
 }
 .site-info a {
-	color: #fff;
+	color: #999;
 	text-decoration: none;
 }
 .site-info a:hover {
@@ -886,8 +886,9 @@ body:before {
 	font-size: 25px;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-family: Montserrat;
 }
-.entry-title:after {
+/*.entry-title:after {
 	content: '';
 	z-index: 2;
 	display: block;
@@ -897,7 +898,7 @@ body:before {
 	border-right: 5px solid #f5f5f5;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-}
+}*/
 .entry-title a {
 	color: #303030;
 	text-decoration: none;
@@ -986,7 +987,8 @@ body:before {
 
 /* Entry format */
 .entry-format-badge.genericon {
-	display: block;
+	/*display: block;*/
+	display: none;
 	position: absolute;
 	top: 0;
 	left: -120px;
@@ -1455,7 +1457,7 @@ p.no-comments {
 
 .widget {
 	margin: 0 0 20px;
-	border-bottom: 15px double #16a085;
+	border-bottom: 4px double #242424;
 	font-size: 14px;
 }
 .content-area .widget {
@@ -1469,13 +1471,14 @@ p.no-comments {
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
+	font-family: Montserrat;
 }
 .widget-title:empty {
 	display: none;
 }
 .widget-area .widget-title,
 .widget-area .widget-title a {
-	color: #fff;
+	color: #999;
 }
 .widget-title a {
 	text-decoration: none;
@@ -1588,7 +1591,6 @@ p.no-comments {
 .widget_rss ul,
 .widget_rss_links ul {
 	list-style: none;
-	text-transform: uppercase;
 }
 .widget_archive li,
 .widget_categories li,
@@ -1647,8 +1649,7 @@ p.no-comments {
 .widget_recent_entries ul a,
 .widget_rss ul a,
 .widget_rss_links ul a {
-	color: #fff;
-	font-weight: bold;
+	color: #999;
 	text-decoration: none;
 }
 .widget_archive ul a:hover,
@@ -1768,7 +1769,7 @@ span.infinite-loader .spinner div div {
 #page .entry-summary .rating-msg,
 #primary div.sharedaddy .jp-relatedposts-headline em {
 	color: #303030;
-	font: bold 11px/1.5 Montserrat, sans-serif;
+	font:  Montserrat, sans-serif;
 	text-transform: uppercase !important;
 }
 
