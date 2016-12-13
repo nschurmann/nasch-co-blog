@@ -202,6 +202,10 @@ kbd,
 tt,
 var {
 	font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	background-color: #eee;
+	border-radius: 5px;
+	padding: 2px 5px;
+	box-shadow: inset 0 0 2px rgba(0,0,0,0.2);
 }
 abbr,
 acronym {
