@@ -635,6 +635,7 @@ body:before {
 }
 .site-logo img {
 	display: block;
+	height: 120px;
 }
 .site-branding {
 	position: relative;
