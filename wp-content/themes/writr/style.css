@@ -519,8 +519,8 @@ body {
 	overflow-x: hidden;
 	padding: 40px 0 0;
 	width: 100%;
-	background: #ececec;
-	color: #656565;
+	background: #fff;
+	color: #454545;
 	-ms-word-wrap: break-word;
 	word-wrap:     break-word;
 }
